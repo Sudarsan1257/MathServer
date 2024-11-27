@@ -1,43 +1,34 @@
 <html>
     <head>
-        <style>
-            .Calculate
-            {
-                width: 30%;
-                padding: 20px;
-                margin: auto;
-                background-color: rgb(172, 180, 25);
-            }
-            p
-            {
-                font-size: 20px;
-                font-weight: bold;
-                bottom: 1px;
-            }
-        </style>
         <script>
-            function power()
-            {
-                var i = Number(document.getElementById('t1').value);
-                var r = Number(document.getElementById('t2').value);
-                var p = i*i*r;
-                document.getElementById('power').innerText="Power of Lamp = "+p;
+            function check() {
+                var i = parseFloat(document.getElementById('t1').value);
+                var r =  parseFloat(document.getElementById('t2').value);
+                var z= i*i*r;
                 
+                document.getElementById('result').innerText="Power:"+z
             }
         </script>
+        <style>
+            .box
+            {
+            background-color: rgb(94, 93, 92);
+            width:30%;
+            padding: 20px;
+            margin: auto;
+            
+            }
+        </style>
     </head>
-    <body bgcolor="teal" align="center">
-        <br><br><br><br><br><br>
-        <div class="Calculate">
-            <br><br>
-            <p>POWER OF LAMP FILAMENT </p><p>CALCULATOR<p>
-            <form>
-                <input type="number" placeholder="Enter Intensity" id="t1"><br><br>
-                <input type="number" placeholder="Enter Resistance" id="t2"><br><br>
-                <input type="button" value="Calculate Power" onclick="power()"><br><br>
-                <label id="power"></label>
-            </form>
+    <body aria-setsize="20px" bgcolor="teal"><br><br><br><br><br><br><br><br>
+        <div class="box" align="center"><br>
+            <h1>Power</h1>
+        <form fontsize="3px">
+            <input type="number" placeholder="Intensity" id="t1" ><br><br>
+            <input type="number" placeholder="Resistance" id="t2" ><br><br>
+            <input type="button" value="calculate" onclick="check()" ><br><br>
+            <label id="result"></label>
+        </form>
         </div>
-        <div class="footer" bg color="black"> <p>&copy; 2024 SAN. All rights reserved.</p> <p>For more information, contact us at 044-39674774 <a href="mailto:sanardusa@gmail.com">sanardusa@gmail.com</a></p> </div>
-    </body>
-</html>
+    </body>
+    </html>
