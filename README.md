@@ -92,9 +92,9 @@ Publish the website in the given URL.
             }
         </script>
 ```
+### Output
 
-![alt text](<123.png>)
-
+![alt text](<Screenshot 2024-11-27 204041.jpg>)
 
 
 ## RESULT:
