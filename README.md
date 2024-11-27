@@ -92,9 +92,9 @@ Publish the website in the given URL.
             }
         </script>
 ```
+![alt text](<Screenshot 2024-11-27 211427.png>)
+### HOMEPAGE:
 
-## HOMEPAGE:
-![alt text](<Screenshot 2024-11-27 204041.png>)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
