@@ -92,8 +92,9 @@ Publish the website in the given URL.
             }
         </script>
 ```
-![alt text](<Screenshot 2024-11-27 211427.png>)
-### HOMEPAGE:
+
+![alt text](<123.png>)
+
 
 
 ## RESULT:
